@@ -19,8 +19,8 @@
   <path class="draw" fill="none" stroke="url(#ln)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
     d="M0 214 L40 212 L80 216 L120 211 L160 215 L200 212 L240 216 L280 213 L320 215 L360 211 L400 214 L440 212 L470 214 L490 240 L510 246 L690 246 L710 240 L730 214 L760 212 L800 216 L840 211 L880 215 L920 212 L960 216 L1000 213 L1040 215 L1080 211 L1120 214 L1160 212 L1200 214"/>
   <circle class="dot" cx="600" cy="246" r="5" fill="#a371f7"/>
-  <text class="fade" x="60" y="104" font-size="64" font-weight="800" fill="#ffffff" style="animation-delay:.2s">Nikhil</text>
-  <text class="fade" x="60" y="152" font-size="24" fill="#c9d1ff" style="animation-delay:.6s">I build systems where a measured result beats a demo.</text>
-  <text class="fade" x="60" y="186" font-size="16" fill="#8b93c9" letter-spacing=".04em" style="animation-delay:1s">ML · hardware · mobile · developer tools   |   NMIT, Bengaluru</text>
-  <text class="fade" x="600" y="272" font-size="12" fill="#8b93c9" text-anchor="middle" style="animation-delay:4s">one clean dip. work out what made it.</text>
+  <text x="60" y="104" font-size="64" font-weight="800" fill="#ffffff">Nikhil</text>
+  <text x="60" y="152" font-size="24" fill="#c9d1ff">I build systems where a measured result beats a demo.</text>
+  <text x="60" y="186" font-size="16" fill="#8b93c9" letter-spacing=".04em">ML · hardware · mobile · developer tools   |   NMIT, Bengaluru</text>
+  <text x="600" y="272" font-size="12" fill="#8b93c9" text-anchor="middle">one clean dip. work out what made it.</text>
 </svg>
