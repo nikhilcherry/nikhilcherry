@@ -6,11 +6,11 @@
     .mono{font-family:ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace} .k{font:700 13px ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace;letter-spacing:.14em;fill:#f6a13c} .s{font:500 13px ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;fill:#8d96b8}
     .t{font:700 15px ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;fill:#eef1ff} .d{font:500 12px ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;fill:#8d96b8} .m{font:600 12px ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace;fill:#c9d0f0}
     .pop{transform-box:fill-box;transform-origin:center;animation:pop .5s cubic-bezier(.2,.9,.3,1.3) backwards}
-    @keyframes pop{from{transform:scale(0);opacity:0}}
-    .fade{animation:fade .6s ease-out backwards} @keyframes fade{from{opacity:0}}
+    @keyframes pop{from{transform:scale(.55);opacity:.3}}
+    .fade{animation:fade .6s ease-out backwards} @keyframes fade{from{opacity:.3}}
     .draw{stroke-dasharray:var(--l,400);animation:draw var(--t,1.2s) ease-out backwards}
-    @keyframes draw{from{stroke-dashoffset:var(--l,400)}to{stroke-dashoffset:0}}
-    .rise{animation:rise .6s ease-out backwards} @keyframes rise{from{opacity:0;transform:translateY(12px)}}
+    @keyframes draw{from{stroke-dashoffset:calc(var(--l,400) * .7)}to{stroke-dashoffset:0}}
+    .rise{animation:rise .6s ease-out backwards} @keyframes rise{from{opacity:.3;transform:translateY(8px)}}
     
     .hotc{animation:hot 2.2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
     @keyframes hot{0%,100%{transform:scale(1)}50%{transform:scale(1.14)}}
