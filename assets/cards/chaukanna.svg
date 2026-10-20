@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#150f16"/><stop offset="1" stop-color="#1f1624"/></linearGradient>
+  <marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" fill="#ff6a5f"/></marker>
+  <style>
+    .mono{font-family:ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace} .k{font:700 13px ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace;letter-spacing:.14em;fill:#ff6a5f} .s{font:500 13px ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;fill:#8d96b8}
+    .t{font:700 15px ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;fill:#eef1ff} .d{font:500 12px ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;fill:#8d96b8} .m{font:600 12px ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace;fill:#c9d0f0}
+    .pop{transform-box:fill-box;transform-origin:center;animation:pop .5s cubic-bezier(.2,.9,.3,1.3) backwards}
+    @keyframes pop{from{transform:scale(0);opacity:0}}
+    .fade{animation:fade .6s ease-out backwards} @keyframes fade{from{opacity:0}}
+    .draw{stroke-dasharray:var(--l,400);animation:draw var(--t,1.2s) ease-out backwards}
+    @keyframes draw{from{stroke-dashoffset:var(--l,400)}to{stroke-dashoffset:0}}
+    .rise{animation:rise .6s ease-out backwards} @keyframes rise{from{opacity:0;transform:translateY(12px)}}
+    
+    .bub{animation:rise .5s ease-out backwards}
+    .bar{animation:grow .7s ease-out backwards;transform-box:fill-box;transform-origin:left}
+    @keyframes grow{from{transform:scaleX(0)}}
+    .ring{transform-box:fill-box;transform-origin:center;animation:ring 2.6s ease-out infinite}
+    @keyframes ring{0%{transform:scale(.4);opacity:.9}100%{transform:scale(2.4);opacity:0}}
+    .wave{stroke-dasharray:14 10;animation:flow 1.4s linear infinite}
+    @keyframes flow{to{stroke-dashoffset:-48}}
+    
+  </style>
+</defs>
+<rect width="800" height="450" rx="18" fill="url(#bg)"/>
+<g stroke="#ffffff" stroke-opacity=".035"><path d="M0 90H800M0 180H800M0 270H800M0 360H800M133 0V450M266 0V450M400 0V450M533 0V450M666 0V450"/></g>
+<text class="k" x="36" y="44">CHAUKANNA</text><text class="s" x="36" y="66">Hears the call with you. Whispers only to her. Cuts the scammer off.</text>
+<text class="d" x="40" y="104">THE CALLER</text>
+<g class="bub" style="animation-delay:0.4s"><rect x="40" y="124" width="224" height="38" rx="12" fill="#3a1d24" stroke="#e8483a" stroke-opacity=".7"/><text class="m" x="54" y="148" style="fill:#ffb3ab">your parcel has drugs in it</text></g>
+<g class="bub" style="animation-delay:1.3s"><rect x="40" y="176" width="224" height="38" rx="12" fill="#3a1d24" stroke="#e8483a" stroke-opacity=".7"/><text class="m" x="54" y="200" style="fill:#ffb3ab">do not tell anyone</text></g>
+<g class="bub" style="animation-delay:2.2s"><rect x="40" y="228" width="224" height="38" rx="12" fill="#3a1d24" stroke="#e8483a" stroke-opacity=".7"/><text class="m" x="54" y="252" style="fill:#ffb3ab">read me the OTP now</text></g>
+<path d="M272 190 H312" stroke="#e8483a" stroke-width="2.5" fill="none" marker-end="url(#ar)" class="wave"/>
+<text class="d" x="326" y="104">PRESSURE, PER 4 s CHUNK</text>
+<g><rect x="326" y="124" width="210" height="40" rx="8" fill="#1a2140"/><rect class="bar" x="326" y="124" width="120" height="40" rx="8" fill="#2e7d5b" style="animation-delay:1.0s"/><text class="t" x="340" y="149" style="font-size:13px">P0  ordinary</text></g>
+<g><rect x="326" y="176" width="210" height="40" rx="8" fill="#1a2140"/><rect class="bar" x="326" y="176" width="150" height="40" rx="8" fill="#3b6fb5" style="animation-delay:1.7s"/><text class="t" x="340" y="201" style="font-size:13px">P1  watch</text></g>
+<g><rect x="326" y="228" width="210" height="40" rx="8" fill="#1a2140"/><rect class="bar" x="326" y="228" width="180" height="40" rx="8" fill="#d79a2b" style="animation-delay:2.4s"/><text class="t" x="340" y="253" style="font-size:13px">P2  whisper</text></g>
+<g><rect x="326" y="280" width="210" height="40" rx="8" fill="#1a2140"/><rect class="bar" x="326" y="280" width="210" height="40" rx="8" fill="#e8483a" style="animation-delay:3.0999999999999996s"/><text class="t" x="340" y="305" style="font-size:13px">P3  agent joins</text></g>
+<path d="M544 190 H586" stroke="#e8483a" stroke-width="2.5" fill="none" marker-end="url(#ar)" class="wave"/>
+<rect x="596" y="96" width="150" height="232" rx="22" fill="#12182f" stroke="#5a6aa8" stroke-width="2"/>
+<circle class="ring" cx="671" cy="178" r="34" fill="none" stroke="#7bd0ff" stroke-width="3" style="animation-delay:0s"/><circle class="ring" cx="671" cy="178" r="34" fill="none" stroke="#7bd0ff" stroke-width="3" style="animation-delay:.9s"/>
+<path d="M671 150 l26 9 v18 c0 16 -12 26 -26 32 c-14 -6 -26 -16 -26 -32 v-18z" fill="#2b86c5" stroke="#bfe8ff" stroke-width="2.5"/><path d="M660 180 l8 8 l16 -18" stroke="#fff" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text class="t" x="671" y="244" text-anchor="middle" style="font-size:14px">Hang up.</text><text class="d" x="671" y="262" text-anchor="middle">Do not pay or</text><text class="d" x="671" y="278" text-anchor="middle">share anything.</text>
+<text class="m" x="671" y="306" text-anchor="middle" style="fill:#7bd0ff;font-size:11px">only she hears it</text>
+<g class="fade" style="animation-delay:3.0s"><rect x="40" y="376" width="47" height="30" rx="15" fill="#1a2140" stroke="#3b4a86"/><text class="m" x="63.5" y="396" text-anchor="middle">STT</text></g>
+<text class="d fade" x="95" y="396" text-anchor="middle" style="animation-delay:3.0s">→</text>
+<g class="fade" style="animation-delay:3.2s"><rect x="109" y="376" width="110" height="30" rx="15" fill="#1a2140" stroke="#3b4a86"/><text class="m" x="164.0" y="396" text-anchor="middle">classifier</text></g>
+<text class="d fade" x="227" y="396" text-anchor="middle" style="animation-delay:3.2s">→</text>
+<g class="fade" style="animation-delay:3.4s"><rect x="241" y="376" width="83" height="30" rx="15" fill="#1a2140" stroke="#3b4a86"/><text class="m" x="282.5" y="396" text-anchor="middle">whisper</text></g>
+<text class="d fade" x="332" y="396" text-anchor="middle" style="animation-delay:3.4s">→</text>
+<g class="fade" style="animation-delay:3.6s"><rect x="346" y="376" width="92" height="30" rx="15" fill="#1a2140" stroke="#3b4a86"/><text class="m" x="392.0" y="396" text-anchor="middle">AI agent</text></g>
+<text class="d fade" x="446" y="396" text-anchor="middle" style="animation-delay:3.6s">→</text>
+<g class="fade" style="animation-delay:3.8s"><rect x="460" y="376" width="128" height="30" rx="15" fill="#1a2140" stroke="#3b4a86"/><text class="m" x="524.0" y="396" text-anchor="middle">n8n evidence</text></g>
+<text class="m fade" x="400" y="436" text-anchor="middle" style="animation-delay:4.2s;fill:#8d96b8">28 of 28 scam calls caught · 0 of 19 ordinary calls flagged</text>
+</svg>

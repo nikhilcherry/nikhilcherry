@@ -13,13 +13,13 @@ I build things end to end: ML pipelines, hardware and firmware, mobile apps, and
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/nikhilcherry/assay"><img src="assets/cards/assay.gif" alt="assay replay page"></a>
+<a href="https://github.com/nikhilcherry/assay"><img src="assets/cards/assay.svg" alt="assay replay page"></a>
 
 **[assay](https://github.com/nikhilcherry/assay)** · fraud investigation on a graph<br>
 An agent that investigates a flagged transaction on TigerGraph and files a case with the query behind every claim. Held-out AUC **0.964** vs the bank's 0.866; no LLM on the decision path. [Live replay](https://nikhilcherry.github.io/assay/).
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/nikhilcherry/chaukanna"><img src="assets/cards/chaukanna.gif" alt="Chaukanna"></a>
+<a href="https://github.com/nikhilcherry/chaukanna"><img src="assets/cards/chaukanna.svg" alt="Chaukanna"></a>
 
 **[chaukanna](https://github.com/nikhilcherry/chaukanna)** · live scam-call guardian<br>
 Whispers a warning only the victim hears, an AI agent cuts the scammer off, n8n files the evidence. Caught **28 of 28** scam calls with **0 false alarms** on 19 ordinary ones. [Demo](https://youtu.be/8vpouj2xdso).
@@ -27,13 +27,13 @@ Whispers a warning only the victim hears, an AI agent cuts the scammer off, n8n 
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/nikhilcherry/arvyo"><img src="assets/cards/arvyo.gif" alt="Four forward models fitted to one light curve"></a>
+<a href="https://github.com/nikhilcherry/arvyo"><img src="assets/cards/arvyo.svg" alt="Four forward models fitted to one light curve"></a>
 
 **[arvyo](https://github.com/nikhilcherry/arvyo)** · exoplanet or impostor?<br>
 A star dims. Planet, eclipsing binary, blend or starspot? Fits all four from physics on TESS/Kepler data and ranks them by BIC. Found a real near-tie between planet and blend and documented it.
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/nikhilcherry/connect"><img src="https://raw.githubusercontent.com/nikhilcherry/connect/main/docs/architecture.svg" alt="Connect architecture"></a>
+<a href="https://github.com/nikhilcherry/connect"><img src="assets/cards/connect.svg" alt="Connect architecture"></a>
 
 **[connect](https://github.com/nikhilcherry/connect)** · reach a car's owner, no numbers shared<br>
 QR tag on the windshield, private two-way chat, works offline through an acoustic modem I wrote in Dart. **139** backend checks, **146** app tests, ₹0/month to run. **Top 7 at the iQOO grand finals.**
@@ -41,13 +41,13 @@ QR tag on the windshield, private two-way chat, works offline through an acousti
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/nikhilcherry/jitter"><img src="assets/cards/jitter.gif" alt="jitter blaming a timezone flake"></a>
+<a href="https://github.com/nikhilcherry/jitter"><img src="assets/cards/jitter.svg" alt="jitter blaming a timezone flake"></a>
 
 **[jitter](https://github.com/nikhilcherry/jitter)** · why a test is flaky<br>
 Shakes twelve sources of nondeterminism, finds the one that matters statistically, and hands back a repro that fails **10 out of 10**. Zero dependencies.
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/nikhilcherry/strata"><img src="assets/cards/strata.gif" alt="strata report on Flask"></a>
+<a href="https://github.com/nikhilcherry/strata"><img src="assets/cards/strata.svg" alt="strata report on Flask"></a>
 
 **[strata](https://github.com/nikhilcherry/strata)** · code archaeology<br>
 Crosses git churn with code shape to show where a repo's risk lives, including files that change together with no import between them. One HTML file, zero dependencies.

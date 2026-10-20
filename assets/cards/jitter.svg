@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0e0f1f"/><stop offset="1" stop-color="#17142e"/></linearGradient>
+  <marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" fill="#a371f7"/></marker>
+  <style>
+    .mono{font-family:ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace} .k{font:700 13px ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace;letter-spacing:.14em;fill:#a371f7} .s{font:500 13px ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;fill:#8d96b8}
+    .t{font:700 15px ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;fill:#eef1ff} .d{font:500 12px ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;fill:#8d96b8} .m{font:600 12px ui-monospace, 'SF Mono', Menlo, Consolas, 'DejaVu Sans Mono', monospace;fill:#c9d0f0}
+    .pop{transform-box:fill-box;transform-origin:center;animation:pop .5s cubic-bezier(.2,.9,.3,1.3) backwards}
+    @keyframes pop{from{transform:scale(0);opacity:0}}
+    .fade{animation:fade .6s ease-out backwards} @keyframes fade{from{opacity:0}}
+    .draw{stroke-dasharray:var(--l,400);animation:draw var(--t,1.2s) ease-out backwards}
+    @keyframes draw{from{stroke-dashoffset:var(--l,400)}to{stroke-dashoffset:0}}
+    .rise{animation:rise .6s ease-out backwards} @keyframes rise{from{opacity:0;transform:translateY(12px)}}
+    
+    .kn{animation:shake .5s ease-in-out 0s 6, dim .6s ease-out 3.4s forwards}
+    @keyframes shake{0%,100%{transform:translateX(0)}25%{transform:translateX(-3px)}75%{transform:translateX(3px)}}
+    @keyframes dim{to{opacity:.28}}
+    .kn.hot{animation:shake .5s ease-in-out 0s 6, glow 1.8s ease-in-out 3.4s infinite}
+    @keyframes glow{0%,100%{filter:drop-shadow(0 0 0 #a371f7)}50%{filter:drop-shadow(0 0 10px #a371f7)}}
+    .tick{animation:pop .3s cubic-bezier(.2,.9,.3,1.3) backwards}
+    
+  </style>
+</defs>
+<rect width="800" height="450" rx="18" fill="url(#bg)"/>
+<g stroke="#ffffff" stroke-opacity=".035"><path d="M0 90H800M0 180H800M0 270H800M0 360H800M133 0V450M266 0V450M400 0V450M533 0V450M666 0V450"/></g>
+<text class="k" x="36" y="44">JITTER</text><text class="s" x="36" y="66">Shake the world around your test until one knob is to blame.</text>
+<text class="d" x="36" y="100">TWELVE SOURCES OF NONDETERMINISM, SHAKEN</text>
+<g class="kn"><rect x="36" y="114" width="114" height="34" rx="9" fill="#161c36" stroke="#3b4a86" stroke-width="1.5"/><text class="m" x="93" y="136" text-anchor="middle" style="fill:#c9d0f0">order</text></g>
+<g class="kn"><rect x="162" y="114" width="114" height="34" rx="9" fill="#161c36" stroke="#3b4a86" stroke-width="1.5"/><text class="m" x="219" y="136" text-anchor="middle" style="fill:#c9d0f0">fsorder</text></g>
+<g class="kn"><rect x="288" y="114" width="114" height="34" rx="9" fill="#161c36" stroke="#3b4a86" stroke-width="1.5"/><text class="m" x="345" y="136" text-anchor="middle" style="fill:#c9d0f0">hashseed</text></g>
+<g class="kn"><rect x="414" y="114" width="114" height="34" rx="9" fill="#161c36" stroke="#3b4a86" stroke-width="1.5"/><text class="m" x="471" y="136" text-anchor="middle" style="fill:#c9d0f0">threads</text></g>
+<g class="kn"><rect x="540" y="114" width="114" height="34" rx="9" fill="#161c36" stroke="#3b4a86" stroke-width="1.5"/><text class="m" x="597" y="136" text-anchor="middle" style="fill:#c9d0f0">sleep</text></g>
+<g class="kn"><rect x="666" y="114" width="114" height="34" rx="9" fill="#161c36" stroke="#3b4a86" stroke-width="1.5"/><text class="m" x="723" y="136" text-anchor="middle" style="fill:#c9d0f0">gc</text></g>
+<g class="kn hot"><rect x="36" y="158" width="114" height="34" rx="9" fill="#2a1f5c" stroke="#a371f7" stroke-width="2.5"/><text class="m" x="93" y="180" text-anchor="middle" style="fill:#e4d4ff">tz</text></g>
+<g class="kn"><rect x="162" y="158" width="114" height="34" rx="9" fill="#161c36" stroke="#3b4a86" stroke-width="1.5"/><text class="m" x="219" y="180" text-anchor="middle" style="fill:#c9d0f0">clock</text></g>
+<g class="kn"><rect x="288" y="158" width="114" height="34" rx="9" fill="#161c36" stroke="#3b4a86" stroke-width="1.5"/><text class="m" x="345" y="180" text-anchor="middle" style="fill:#c9d0f0">locale</text></g>
+<g class="kn"><rect x="414" y="158" width="114" height="34" rx="9" fill="#161c36" stroke="#3b4a86" stroke-width="1.5"/><text class="m" x="471" y="180" text-anchor="middle" style="fill:#c9d0f0">env</text></g>
+<g class="kn"><rect x="540" y="158" width="114" height="34" rx="9" fill="#161c36" stroke="#3b4a86" stroke-width="1.5"/><text class="m" x="597" y="180" text-anchor="middle" style="fill:#c9d0f0">tmpdir</text></g>
+<g class="kn"><rect x="666" y="158" width="114" height="34" rx="9" fill="#161c36" stroke="#3b4a86" stroke-width="1.5"/><text class="m" x="723" y="180" text-anchor="middle" style="fill:#c9d0f0">load</text></g>
+<text class="t" x="36" y="243" style="font-size:13px">frozen</text>
+<circle class="pop" cx="150" cy="238" r="9" fill="#3fb97a" style="animation-delay:3.80s"/>
+<circle class="pop" cx="180" cy="238" r="9" fill="#3fb97a" style="animation-delay:3.87s"/>
+<circle class="pop" cx="210" cy="238" r="9" fill="#3fb97a" style="animation-delay:3.94s"/>
+<circle class="pop" cx="240" cy="238" r="9" fill="#3fb97a" style="animation-delay:4.01s"/>
+<circle class="pop" cx="270" cy="238" r="9" fill="#3fb97a" style="animation-delay:4.08s"/>
+<circle class="pop" cx="300" cy="238" r="9" fill="#3fb97a" style="animation-delay:4.15s"/>
+<circle class="pop" cx="330" cy="238" r="9" fill="#3fb97a" style="animation-delay:4.22s"/>
+<circle class="pop" cx="360" cy="238" r="9" fill="#3fb97a" style="animation-delay:4.29s"/>
+<circle class="pop" cx="390" cy="238" r="9" fill="#3fb97a" style="animation-delay:4.36s"/>
+<circle class="pop" cx="420" cy="238" r="9" fill="#3fb97a" style="animation-delay:4.43s"/>
+<circle class="pop" cx="450" cy="238" r="9" fill="#3fb97a" style="animation-delay:4.50s"/>
+<circle class="pop" cx="480" cy="238" r="9" fill="#3fb97a" style="animation-delay:4.57s"/>
+<text class="t" x="36" y="277" style="font-size:13px">shaken</text>
+<circle class="pop" cx="150" cy="272" r="9" fill="#3fb97a" style="animation-delay:4.60s"/>
+<circle class="pop" cx="180" cy="272" r="9" fill="#e8483a" style="animation-delay:4.67s"/>
+<circle class="pop" cx="210" cy="272" r="9" fill="#3fb97a" style="animation-delay:4.74s"/>
+<circle class="pop" cx="240" cy="272" r="9" fill="#e8483a" style="animation-delay:4.81s"/>
+<circle class="pop" cx="270" cy="272" r="9" fill="#3fb97a" style="animation-delay:4.88s"/>
+<circle class="pop" cx="300" cy="272" r="9" fill="#e8483a" style="animation-delay:4.95s"/>
+<circle class="pop" cx="330" cy="272" r="9" fill="#e8483a" style="animation-delay:5.02s"/>
+<circle class="pop" cx="360" cy="272" r="9" fill="#3fb97a" style="animation-delay:5.09s"/>
+<circle class="pop" cx="390" cy="272" r="9" fill="#e8483a" style="animation-delay:5.16s"/>
+<circle class="pop" cx="420" cy="272" r="9" fill="#3fb97a" style="animation-delay:5.23s"/>
+<circle class="pop" cx="450" cy="272" r="9" fill="#e8483a" style="animation-delay:5.30s"/>
+<circle class="pop" cx="480" cy="272" r="9" fill="#3fb97a" style="animation-delay:5.37s"/>
+<text class="m" x="530" y="243" style="fill:#3fb97a">0 of 12 trials fail</text><text class="m" x="530" y="277" style="fill:#e8483a">6 of 12 trials fail</text>
+<g class="rise" style="animation-delay:5.6s"><rect x="36" y="308" width="728" height="46" rx="12" fill="#1c1442" stroke="#a371f7" stroke-opacity=".7"/><text class="m" x="54" y="337" style="font-size:13px;fill:#e4d4ff">caused by <tspan style="font-weight:800;fill:#fff">tz</tspan> · tz = Pacific/Kiritimati</text></g>
+<g class="tick" style="animation-delay:6.00s"><rect x="478" y="318" width="22" height="26" rx="6" fill="#2d8a5e"/><path d="M484 331 l5 5 l9 -11" stroke="#fff" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g class="tick" style="animation-delay:6.18s"><rect x="506" y="318" width="22" height="26" rx="6" fill="#2d8a5e"/><path d="M512 331 l5 5 l9 -11" stroke="#fff" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g class="tick" style="animation-delay:6.36s"><rect x="534" y="318" width="22" height="26" rx="6" fill="#2d8a5e"/><path d="M540 331 l5 5 l9 -11" stroke="#fff" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g class="tick" style="animation-delay:6.54s"><rect x="562" y="318" width="22" height="26" rx="6" fill="#2d8a5e"/><path d="M568 331 l5 5 l9 -11" stroke="#fff" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g class="tick" style="animation-delay:6.72s"><rect x="590" y="318" width="22" height="26" rx="6" fill="#2d8a5e"/><path d="M596 331 l5 5 l9 -11" stroke="#fff" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g class="tick" style="animation-delay:6.90s"><rect x="618" y="318" width="22" height="26" rx="6" fill="#2d8a5e"/><path d="M624 331 l5 5 l9 -11" stroke="#fff" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g class="tick" style="animation-delay:7.08s"><rect x="646" y="318" width="22" height="26" rx="6" fill="#2d8a5e"/><path d="M652 331 l5 5 l9 -11" stroke="#fff" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g class="tick" style="animation-delay:7.26s"><rect x="674" y="318" width="22" height="26" rx="6" fill="#2d8a5e"/><path d="M680 331 l5 5 l9 -11" stroke="#fff" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g class="tick" style="animation-delay:7.44s"><rect x="702" y="318" width="22" height="26" rx="6" fill="#2d8a5e"/><path d="M708 331 l5 5 l9 -11" stroke="#fff" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g class="tick" style="animation-delay:7.62s"><rect x="730" y="318" width="22" height="26" rx="6" fill="#2d8a5e"/><path d="M736 331 l5 5 l9 -11" stroke="#fff" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text class="t fade" x="400" y="392" text-anchor="middle" style="animation-delay:7.8s;font-size:18px;fill:#e4d4ff">a flake that fails 10 of 10 is a bug with a repro</text>
+</svg>
