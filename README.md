@@ -75,7 +75,7 @@ Small CLIs with tests and CI, each doing one thing:
 - **[prism](https://github.com/nikhilcherry/prism-echo)**: a laptop's speaker and microphone as science instruments: ultrasonic room geometry ([prism-echo](https://github.com/nikhilcherry/prism-echo)), breathing detection ([prism-breath](https://github.com/nikhilcherry/prism-breath)) and everything exposed as MCP tools ([prism-mcp](https://github.com/nikhilcherry/prism-mcp)).
 - **[DriveLink](https://github.com/nikhilcherry/drivelink)**: a V2V communication layer for cars, with an ML engine, an isometric simulator and the [website](https://drivelink.tech).
 - **[whosaid](https://github.com/nikhilcherry/whosaid)**: on-device, speaker-attributed captions for deaf and hard-of-hearing users, built from small browser toolkits (ASR, VAD, face tracking, caption HUD).
-- **[hk-voice-io](https://github.com/nikhilcherry/hk-voice-io)**: local offline speech toolkit (VAD, Whisper, Piper) that powers a dictation tool I use daily.
+- **[hk-voice-io](https://github.com/nikhilcherry/hk-voice-io)**: local offline speech toolkit (VAD, Whisper, Piper) that powers my local dictation tool.
 
 </details>
 
@@ -95,6 +95,6 @@ Also shipped at Hacker House Goa 2026 ([assay](https://github.com/nikhilcherry/a
 
 - **Measure first.** Held-out splits, calibration tables, 10-out-of-10 replays. If a number is an assumption, the README says so.
 - **Write down the limits.** Every project above has an "honest limits" section, because an interviewer finds them anyway.
-- **Ship the demo, then the tests.** Each hackathon project here also has tests that run in CI.
+- **Ship the demo, then the tests.** The hackathon builds are demo-first; the dev tools and the harder projects carry tests that run in CI.
 
 <div align="center"><sub>Resume and selected projects: <a href="https://nikhil-av.vercel.app">nikhil-av.vercel.app</a></sub></div>
