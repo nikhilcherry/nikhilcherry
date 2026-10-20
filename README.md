@@ -22,7 +22,7 @@ Small, zero-dependency CLIs, each with tests and CI:
 [carve](https://github.com/nikhilcherry/carve) (shrink a failing repo to the minimum) ·
 [replayr](https://github.com/nikhilcherry/replayr) (record a backend once, replay forever) ·
 [hoist](https://github.com/nikhilcherry/hoist) (local app to public HTTPS in one command) ·
-[roam](https://github.com/nikhilcherry/roam) and [cairn](https://github.com/nikhilcherry/cairn) (a Blender export to a walkable multiplayer page) ·
+[roam](https://github.com/nikhilcherry/roam) (a Blender export to a walkable multiplayer page, the core of [cairn](https://github.com/nikhilcherry/cairn)) ·
 [kinetix](https://github.com/nikhilcherry/kinetix) (beat-synced reels from code)
 
 ## Hackathons
