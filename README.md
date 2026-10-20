@@ -55,7 +55,7 @@ Crosses git churn with code shape to show where a repo's risk lives, including f
 </tr>
 </table>
 
-**Watch the demos:** [assay, 3 min](https://github.com/nikhilcherry/assay/releases/download/replay-v1/demo.mp4) · [chaukanna, 2 min](https://youtu.be/8vpouj2xdso) · [arvyo, 40 s](https://github.com/nikhilcherry/arvyo/blob/main/docs/media/demo.mp4) · [jitter, 40 s](https://github.com/nikhilcherry/jitter/blob/main/docs/media/demo.mp4) · [strata, 40 s](https://github.com/nikhilcherry/strata/blob/main/docs/media/demo.mp4)
+**Watch the demos:** [assay, 3 min](https://github.com/nikhilcherry/assay/releases/download/replay-v1/demo.mp4) · [chaukanna, 2 min](https://youtu.be/8vpouj2xdso) · [connect, reel](https://youtube.com/shorts/r2QJgsw-6Nk) · [arvyo, 40 s](https://youtu.be/nxsViUQj-1k) · [jitter, 40 s](https://youtu.be/BsvzVi-R1Xg) · [strata, 40 s](https://youtu.be/J-SnsnLcnZg)
 
 ## Developer tools
 
