@@ -36,7 +36,7 @@ A star dims. Planet, eclipsing binary, blend or starspot? Fits all four from phy
 <a href="https://github.com/nikhilcherry/connect"><img src="https://raw.githubusercontent.com/nikhilcherry/connect/main/docs/architecture.svg" alt="Connect architecture"></a>
 
 **[connect](https://github.com/nikhilcherry/connect)** · reach a car's owner, no numbers shared<br>
-QR tag on the windshield, private two-way chat, works offline through an acoustic modem I wrote in Dart. **139** backend checks, **146** app tests, ₹0/month to run.
+QR tag on the windshield, private two-way chat, works offline through an acoustic modem I wrote in Dart. **139** backend checks, **146** app tests, ₹0/month to run. **Top 7 at the iQOO grand finals.**
 </td>
 </tr>
 <tr>
@@ -87,7 +87,8 @@ Small CLIs with tests and CI, each doing one thing:
 | 🥇 1st, $350 | ADHD Hacks |
 | 🏅 AIR 5 | IIT Delhi Blueprint |
 | 4th | HackSurgeX |
-| Top 10 | iQOO hackathon · Google DeepMind hackathon, Bangalore |
+| 🏅 Top 7 | iQOO hackathon, **grand finals** (with [connect](https://github.com/nikhilcherry/connect)) |
+| Top 10 | Google DeepMind hackathon, Bangalore |
 
 Also shipped at Hacker House Goa 2026 ([assay](https://github.com/nikhilcherry/assay)) and Hack Sprint 2026, MIT Bengaluru ([chaukanna](https://github.com/nikhilcherry/chaukanna)).
 
