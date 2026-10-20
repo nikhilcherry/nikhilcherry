@@ -87,7 +87,7 @@ Small CLIs with tests and CI, each doing one thing:
 | 🥇 1st, $350 | ADHD Hacks |
 | 🏅 AIR 5 | IIT Delhi Blueprint |
 | 4th | HackSurgeX |
-| 🏅 Top 7 | iQOO hackathon, **grand finals** (with [connect](https://github.com/nikhilcherry/connect)) |
+| 🏅 Top 7 | iQOO hackathon, **grand finals** ([connect](https://github.com/nikhilcherry/connect)); top 10 in the June round |
 | Top 10 | Google DeepMind hackathon, Bangalore |
 
 Also shipped at Hacker House Goa 2026 ([assay](https://github.com/nikhilcherry/assay)) and Hack Sprint 2026, MIT Bengaluru ([chaukanna](https://github.com/nikhilcherry/chaukanna)).
